@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-    <title>Sapper</title>
+    <title>Sapper TypeScript Template</title>
 </svelte:head>
 
 <slot />

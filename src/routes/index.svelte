@@ -1,5 +1,5 @@
 <script lang="ts">
-    const message = "Hello world"
+    const ts: string = "TypeScript"
 </script>
 
-<h1>{message}</h1>
+<h1>Sapper {ts} Template</h1>

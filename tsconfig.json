@@ -1,13 +1,12 @@
 {
+    "extends": "@tsconfig/svelte/tsconfig.json",
     "compilerOptions": {
-        "target": "es6",
-        "module": "es6",
-        "strict": true,
-        "esModuleInterop": true,
-        "moduleResolution": "node",
-        "sourceMap": true,
-        "importHelpers": true
+        "lib": ["DOM", "ES2017"],
+        "baseUrl": "./src",
+        "paths": {
+            "@/*": ["./*"]
+        }
     },
     "include": ["src/**/*", "src/node_modules/**/*"],
-    "exclude": ["node_modules/*", "__sapper__/*", "static/*"]
+    "exclude": ["node_modules/*", "__sapper__/*"]
 }
